@@ -1,69 +1,86 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mentions Légales – ExploreLR</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 20px;
-            background-color: #f9f9f9;
-            color: #333;
-        }
-        h1 {
-            color: #000;
-            text-align: center;
-        }
-        h2 {
-            color: #444;
-            margin-top: 30px;
-        }
-        p {
-            margin-bottom: 10px;
-        }
-        .date {
-            font-style: italic;
-            text-align: center;
-            margin-bottom: 30px;
-        }
-    </style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Mentions légales – ExploreLR</title>
+  <meta name="description" content="Mentions légales de l’application ExploreLR." />
+  <style>
+    :root { --fg:#0f172a; --muted:#475569; --bg:#ffffff; --card:#ffffff; --accent:#2563eb; }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Inter,Arial,sans-serif;color:var(--fg);background:var(--bg);line-height:1.6}
+    .wrap{max-width:860px;margin:0 auto;padding:32px 20px}
+    header{margin-bottom:24px}
+    h1{font-size:clamp(1.6rem,2.5vw,2.2rem);margin:0 0 6px}
+    .subtitle{color:var(--muted);margin:0 0 8px}
+    .chip{display:inline-block;background:#eef2ff;color:#3730a3;border-radius:999px;padding:6px 12px;font-size:.9rem;margin-top:6px}
+    h2{font-size:1.25rem;margin:28px 0 10px}
+    p,li{color:#0f172acc}
+    ul{padding-left:1.1rem}
+    a{color:var(--accent);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .card{background:var(--card);border:1px solid #e5e7eb;border-radius:16px;padding:18px 16px;margin:16px 0}
+    footer{margin-top:28px;color:var(--muted);font-size:.95rem}
+  </style>
 </head>
 <body>
-    <h1>Mentions Légales – ExploreLR</h1>
-    <p class="date">Dernière mise à jour : 9 août 2025</p>
+  <main class="wrap">
+    <header>
+      <h1>Mentions légales – ExploreLR</h1>
+      <p class="subtitle">L’application <strong>ExploreLR</strong> est éditée par <strong>Kevin Hafsi</strong>.</p>
+      <span class="chip">Dernière mise à jour : 9 août 2025</span>
+    </header>
 
-    <h2>1. Éditeur de l’application</h2>
-    <p>L’application <strong>ExploreLR</strong> est éditée par :</p>
-    <p><strong>Kevin Hafsi</strong><br>
-    📍 La Rochelle, France<br>
-    📧 Email : <a href="mailto:explorelr.app@gmail.com">explorelr.app@gmail.com</a></p>
+    <div class="card">
+      <p>Les présentes mentions légales précisent les informations relatives à l’éditeur, à l’hébergeur, aux droits de propriété intellectuelle, au traitement des données personnelles ainsi qu’aux modalités de contact concernant l’application ExploreLR.</p>
+    </div>
 
-    <h2>2. Hébergeur</h2>
-    <p>L’application et ses données sont hébergées via <strong>Firebase</strong> (Google LLC) et Google Cloud Platform :</p>
-    <p>Google LLC<br>
-    1600 Amphitheatre Parkway<br>
-    Mountain View, CA 94043<br>
-    États-Unis</p>
+    <section>
+      <h2>1. Éditeur de l’application</h2>
+      <p><strong>Kevin Hafsi</strong><br/>La Rochelle, France<br/>
+        📧 <a href="mailto:explorelr.app@gmail.com">explorelr.app@gmail.com</a>
+      </p>
+    </section>
 
-    <h2>3. Propriété intellectuelle</h2>
-    <p>L’ensemble des contenus présents dans l’application (textes, images, vidéos, logos, icônes, design) est protégé par le droit d’auteur et les lois sur la propriété intellectuelle.</p>
-    <p>Les images utilisées sont :</p>
-    <ul>
-        <li>Libres de droits</li>
-        <li>Ou utilisées avec l'affichage des crédits photos</li>
-    </ul>
-    <p>Les crédits photos sont mentionnés au bas de chaque fiche d’activité.</p>
+    <section>
+      <h2>2. Hébergeur</h2>
+      <p>L’application et ses données sont hébergées via les services <strong>Firebase</strong> (Google LLC) et Google Cloud Platform&nbsp;:</p>
+      <p>Google LLC<br/>
+      1600 Amphitheatre Parkway<br/>
+      Mountain View, CA 94043<br/>
+      États-Unis</p>
+    </section>
 
-    <h2>4. Données personnelles</h2>
-    <p>Les informations relatives à la collecte et au traitement des données personnelles sont détaillées dans notre <a href="https://naastyhk.github.io/docsExploreLR/Politique.html" target="_blank">Politique de Confidentialité</a>.</p>
+    <section>
+      <h2>3. Propriété intellectuelle</h2>
+      <p>L’ensemble des contenus présents dans l’application (textes, images, vidéos, logos, icônes, design) est protégé par le droit d’auteur et les lois sur la propriété intellectuelle.</p>
+      <ul>
+        <li>Les images utilisées sont <em>libres de droits</em> ou utilisées avec l’affichage des crédits photos.</li>
+        <li>Les crédits photos sont mentionnés au bas de chaque fiche d’activité.</li>
+        <li>Toute reproduction, modification ou diffusion non autorisée des contenus est interdite.</li>
+      </ul>
+    </section>
 
-    <h2>5. Responsabilité</h2>
-    <p>L’éditeur s’efforce d’assurer l’exactitude des informations fournies dans l’application. Toutefois, il ne peut être tenu responsable des erreurs, omissions ou indisponibilités de certaines fonctionnalités.</p>
+    <section>
+      <h2>4. Données personnelles</h2>
+      <p>Les informations relatives à la collecte et au traitement des données personnelles (compte, localisation, préférences, notifications) sont détaillées dans notre
+        <a href="https://naastyhk.github.io/docsExploreLR/Politique.html" target="_blank" rel="noopener">Politique de Confidentialité</a>.
+      </p>
+    </section>
 
-    <h2>6. Contact</h2>
-    <p>Pour toute question concernant ces mentions légales, vous pouvez nous écrire à : <a href="mailto:explorelr.app@gmail.com">explorelr.app@gmail.com</a></p>
+    <section>
+      <h2>5. Responsabilité</h2>
+      <p>L’éditeur s’efforce d’assurer l’exactitude et la mise à jour des informations proposées. Toutefois, il ne saurait être tenu responsable des erreurs, omissions, indisponibilités temporaires ou dysfonctionnements liés à des services tiers.</p>
+    </section>
 
+    <section>
+      <h2>6. Contact</h2>
+      <p>Pour toute question relative à ces mentions légales, vous pouvez nous écrire à&nbsp;: <a href="mailto:explorelr.app@gmail.com">explorelr.app@gmail.com</a></p>
+    </section>
+
+    <footer>
+      <p>&copy; ExploreLR – Tous droits réservés.</p>
+    </footer>
+  </main>
 </body>
 </html>
